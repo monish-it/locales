@@ -1,4 +1,4 @@
-module github.com/go-playground/locales
+module github.com/gohugoio/locales
 
 go 1.16
 

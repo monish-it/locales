@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-playground/locales"
-	"github.com/go-playground/locales/currency"
+	"github.com/gohugoio/locales"
+	"github.com/gohugoio/locales/currency"
 )
 
 type en_MP struct {

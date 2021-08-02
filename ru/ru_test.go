@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-playground/locales"
-	"github.com/go-playground/locales/currency"
+	"github.com/gohugoio/locales"
+	"github.com/gohugoio/locales/currency"
 )
 
 func TestLocale(t *testing.T) {
@@ -884,27 +884,27 @@ func TestFmtNumber(t *testing.T) {
 	 {
 	 	num:      1123456.5643,
 	 	v:        2,
-	 	expected: "1 123 456,56",
+	 	expected: "1 123 456,56",
 	 },
 	 {
 	 	num:      1123456.5643,
 	 	v:        1,
-	 	expected: "1 123 456,6",
+	 	expected: "1 123 456,6",
 	 },
 	 {
 	 	num:      221123456.5643,
 	 	v:        3,
-	 	expected: "221 123 456,564",
+	 	expected: "221 123 456,564",
 	 },
 	 {
 	 	num:      -221123456.5643,
 	 	v:        3,
-	 	expected: "-221 123 456,564",
+	 	expected: "-221 123 456,564",
 	 },
 	 {
 	 	num:      -221123456.5643,
 	 	v:        3,
-	 	expected: "-221 123 456,564",
+	 	expected: "-221 123 456,564",
 	 },
 	 {
 	 	num:      0,

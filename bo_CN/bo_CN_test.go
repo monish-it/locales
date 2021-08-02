@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-playground/locales"
-	"github.com/go-playground/locales/currency"
+	"github.com/gohugoio/locales"
+	"github.com/gohugoio/locales/currency"
 )
 
 func TestLocale(t *testing.T) {

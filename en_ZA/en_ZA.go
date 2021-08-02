@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-playground/locales"
-	"github.com/go-playground/locales/currency"
+	"github.com/gohugoio/locales"
+	"github.com/gohugoio/locales/currency"
 )
 
 type en_ZA struct {
@@ -49,7 +49,7 @@ func New() locales.Translator {
 		pluralsOrdinal:         []locales.PluralRule{2, 3, 4, 6},
 		pluralsRange:           []locales.PluralRule{6},
 		decimal:                ",",
-		group:                  " ",
+		group:                  " ",
 		minus:                  "-",
 		percent:                "%",
 		perMille:               "‰",

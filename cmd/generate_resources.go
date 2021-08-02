@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-playground/locales"
+	"github.com/gohugoio/locales"
 
 	"golang.org/x/text/unicode/cldr"
 
